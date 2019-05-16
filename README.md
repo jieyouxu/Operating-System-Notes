@@ -2,6 +2,8 @@
 
 LaTeX Build from (latex-documentation)[https://github.com/CharlieGreenman/latex-documentation].
 
+Build instructions from `latex-documentation`:
+
 ## Building
 
 ### Install MacTex ###
@@ -14,7 +16,6 @@ not.
 
 LatexTools makes use of Skim for previewing works-in-progress.
 Download and install [Skim](http://skim-app.sourceforge.net/).
-On OS X Yosemite, I installed version 1.4.17.
 
 In addition, to make sure that pdf automatically refreshes when pdf is updated
 once skim is installed, goto Skim -> Preferences -> Sync and check the box for
@@ -29,5 +30,3 @@ npm start
 
 Anytime you come back to this project and want to start editing again, just run
 `npm start`
-
-That's it and enjoy your latex build!
