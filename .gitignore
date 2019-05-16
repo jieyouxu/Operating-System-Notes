@@ -379,3 +379,6 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+### Generated Main PDF ###
+main.pdf
