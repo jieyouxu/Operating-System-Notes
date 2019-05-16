@@ -1,29 +1,24 @@
 {
-  "name": "latex-documentation-build",
+  "name": "operating-system-notes",
   "version": "1.0.0",
-  "description": "A latex skeleton and build, for seamlessly building out documentation time and time again. ",
+  "description": "Notes on Operating System Concepts",
   "main": "index.js",
   "scripts": {
     "initial": "pdftex main.tex",
     "start": "node watcher.js & open -a Skim main.pdf",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "watch-pdf": "wr -h"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CharlieGreenman/latex-documentation.git"
+    "url": "git+https://github.com/jieyouxu/Operating-System-Notes.git"
   },
   "keywords": [
     "latex"
   ],
-  "author": "Charlie Greenman",
+  "author": "Jieyou Xu (Joe)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/CharlieGreenman/latex-documentation/issues"
-  },
-  "homepage": "https://github.com/CharlieGreenman/latex-documentation#readme",
   "devDependencies": {
-    "chokidar": "^2.0.0",
-    "shelljs": "^0.7.8"
+    "chokidar": "^2.1.6",
+    "shelljs": "^0.8.3"
   }
 }

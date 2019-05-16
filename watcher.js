@@ -1,14 +1,14 @@
-var chokidar = require('chokidar');
-var shell = require('shelljs');
+const chokidar = require('chokidar');
+const shell = require('shelljs');
 
 shell.exec('pdflatex main.tex');
 
-var filesToWatch = [
+let filesToWatch = [
   'main.tex',
   '**/*.tex'
 ]
 
-var watcher = chokidar.watch(filesToWatch, {
+const watcher = chokidar.watch(filesToWatch, {
   ignoreInitial: true
 });
 
